@@ -1,0 +1,129 @@
+/*Limpar formataçoes padrao*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 1em;
+    font-family:'Trebuchet MS', Helvetica,sans-serif;
+    background: #EDEBD5;
+}
+
+/*LAYOUT*/
+
+#area-cabecalho{
+    background-color: #A6DDED;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal{
+    width: 1024px;
+    margin: 0px auto;
+    padding: 15px;
+}
+#area-conteudo{
+    width: 674px;
+    float: right;
+}
+
+#area-lateral{
+    background-color: #E7F0F7;
+    width: 330px;
+    float: left;
+    padding: 10px;
+}
+
+#area-conteudo{
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+#contato{
+    text-align: center;
+}
+
+#rodape{
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #A6DDED;
+    padding: 15px;
+}
+
+#photo img{
+    margin: 10px;
+    border-radius: 50%;
+} 
+
+#name{
+    text-align: center;
+    background-color: #E7F0F7;
+}
+#espaco{
+    padding: 30px;
+}
+#espaco1{
+    padding: 2px;
+}
+
+#photo{
+    text-align: center;
+}
+
+
+/*Formatacao links*/
+a{
+    text-decoration: none;
+}
+#area-lateral a:link, a:visited {
+     color:#263547;
+     opacity: 70%;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+/*Formatacao geral*/
+#name h1{
+    color: #384A59;
+    font-size: 2.4em;
+}
+#name h2{
+    color: #7897A1;
+}
+#area-lateral h2, #dado h2{
+    color: #263F58;
+}
+#dado h3{
+    color: #263F58;
+}
+#area-lateral p,#dado p{
+    color: #263547;
+    opacity: 70%;
+}
+#cor{
+    color: #263547;
+    opacity: 70%; 
+}
+#dado, #experiencia, #formacao, #extra, #atividades, #Objetivo, #Dados, #Contato, #Linkedin, #Projetos, #Habilidades{
+    padding: 10px;
+}
+.branco{
+    color: white;
+}
+
+.insete{
+    display: inline;
+}
+.clear{
+    clear: both;
+}
+
